@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating-Application</title>
+    <link rel="stylesheet" href="form style.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Official dating-application</div>
+        <form action="3" method="GET">
+            <!--row1-->
+            <div class="input-box">
+                <span class="details"> Full Name : </span>
+                <input type="text" name="name" id="name" autofocus placeholder="Enter Name" required>
+                &nbsp;&nbsp;&nbsp;
+                <!--row2-->
+
+                <span class="details"> Age : </span>
+                <input type="number" name="age" id="age" placeholder="How old are You?" required> <br><br>
+            </div>
+            <!--row3-->
+            <div class="input-box">
+                <span class="details"> Height : </span>
+                <input type="number" placeholder="Enter Height in (cm)" required>
+                &nbsp;&nbsp;&nbsp;
+                <!--row4-->
+
+                <span class="details"> Weight : </span>
+                <input type="number" name="weight" id="weight" placeholder="Enter Weight in (kg)" required> <br><br>
+            </div>
+            <!--row5-->
+            <div class="input-box">
+                <span class="details"> Email : </span>
+                <input type="email" placeholder="Enter Your Valid Email" required>
+                <!--row5-->
+
+                <span class="details"> Mobile Number : </span>
+                <input type="number" placeholder="Enter Mobile Number" required><br><br>
+            </div>
+            <!--row6-->
+            <div>
+                <span class="details"> Gender : </span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" id="Male">
+                &nbsp;
+                <span id="male">Male</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" id="Female">
+                &nbsp;
+                <span is="female">Female</span>
+                <br><br>
+            </div>
+
+            <!--row7-->
+            <div>
+                <span class="details"> Date of proposed outing : </span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="date" name="date" id="date" required><br><br>
+            </div>
+            <!--row8-->
+            <div>
+                <span class="details"> I Have : </span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="tattoo" id="tattoos">
+                &nbsp;
+                <span id="tattoo"> tattoos</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="piercings" id="piercings">
+                &nbsp;
+                <span id="piercing">Piercings</span>
+                <br><br>
+            </div>
+            <!--row9-->
+            <div>
+                <span class="details"> I am more than 2 years older than my daughter : </span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="older" id="yes" required>
+                &nbsp;
+                <span id="older">Yes</span>
+                <br><br>
+            </div>
+            <!--row10-->
+            <div>
+                <span class="details"> I Own a : </span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="panel van" value="panel van">
+                &nbsp;
+                <span id="panel van">Panel Van</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Ferrari" value="Ferrari">
+                &nbsp;
+                <span id="Ferrari">Ferrari</span>
+                <br><br>
+            </div>
+            <!--row11-->
+            <div>
+                <span class="details"> I work full-time : </span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="full time" value="yes">
+                &nbsp;
+                <span id="full time">Yes</span>
+                <br><br>
+            </div>
+            <!--row12-->
+            <div>
+                <span class="details"> My parents are rich : </span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="rich" value="yes">
+                &nbsp;
+                <span id="rich">Yes</span>
+                <br><br>
+            </div>
+            <!--row13-->
+            <div>
+                <span class="details"> Date Location : </span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="place" value="private">
+                &nbsp;
+                <span id="Private">Private Place</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="place" value="public">
+                &nbsp;
+                <span id="Public">Public Place</span> <br><br>
+            </div>
+            <!--row14-->
+            <div>
+                <span class="details"> Education level completed : </span>
+                &nbsp;&nbsp;&nbsp;
+                <select name="education">
+                    <option value="Secondary education or high school">Secondary education or high school
+                    </option>
+                    <option value="GED">GED</option>
+                    <option value="Vocational qualification">Vocational qualification</option>
+                    <option value="Bachelor's degree">Bachelor's degree</option>
+                    <option value="Master's degree">Master's degree</option>
+                    <option value="Doctorate or higher">Doctorate or higher</option>
+                </select>
+                <br><br>
+            </div>
+            <!--row15-->
+            <div>
+                <span class="details"> Education level completed : </span><br>
+                &nbsp;&nbsp;&nbsp;
+                <textarea name="description" id="description" cols="40" rows="7">50 words maximum</textarea>
+                <br><br>
+            </div>
+            <!--row16-->
+            <div>
+                <label> Upload The Bank Statement :</label>
+                &nbsp;&nbsp;&nbsp;
+                <label> <input name="file" type="file" required></label><br><br>
+            </div>
+            <!--row17-->
+
+            <input type="submit" value="submit" name="submit" id="submit">
+            <input type="reset" value="reset" name="reset" id="reset">
+        </form>
+    </div>
+</body>
+
+</html>
